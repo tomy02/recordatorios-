@@ -1,0 +1,12 @@
+.form-fondo {
+    background-color: rgb(186, 238, 204);
+    text-align: center;
+}
+
+.ver {
+    margin: 10px auto;
+}
+
+.ver::after {
+    margin: 10px auto;
+}

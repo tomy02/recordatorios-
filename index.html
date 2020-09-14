@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorios</title>
+    <link rel="stylesheet" href="css/bootstrap.min (1).css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand animate__animated animate__flipInY">
+        Mis Recordatorios
+        </a>
+    </nav>
+
+    <div class="container">
+        <div id="App" class="row pt-5 animate__animated animate__bounce">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Agregar Recordatorios</h4>
+                    </div>
+                    <form id="product-form" class="card-body form-fondo">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="price" placeholder="Fecha de Inicio" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="year" placeholder="Fecha de Finalización" class="form-control">
+                        </div>
+                        <input type="submit" value="Agregar" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+                <div class="nueva-seccion">
+                    <button type="button" class="btn btn-outline-success ver-ultimo ver">
+                        Ver Ultimo Recordatorio
+                    </button>
+                </div>
+            </div>
+            <div id="product-list" class="col-md-8">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
